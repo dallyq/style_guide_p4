@@ -2,3 +2,5 @@ ignore_me.html
 .vscode
 .DS_Store
 node_modules/
+output.scss
+output.scss.map
