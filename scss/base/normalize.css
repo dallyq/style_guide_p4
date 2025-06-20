@@ -10,6 +10,7 @@
 
  html {
   line-height: 1.15; /* 1 */
+  appearance: button;
   -webkit-text-size-adjust: 100%; /* 2 */
 }
 
@@ -196,6 +197,7 @@ button,
 [type="button"],
 [type="reset"],
 [type="submit"] {
+  appearance: button;
   -webkit-appearance: button;
 }
 
@@ -288,6 +290,7 @@ textarea {
  */
 
 [type="search"] {
+  appearance: button;
   -webkit-appearance: textfield; /* 1 */
   outline-offset: -2px; /* 2 */
 }
@@ -297,6 +300,7 @@ textarea {
  */
 
 [type="search"]::-webkit-search-decoration {
+  appearance: button;
   -webkit-appearance: none;
 }
 
@@ -306,6 +310,7 @@ textarea {
  */
 
 ::-webkit-file-upload-button {
+  appearance: button;
   -webkit-appearance: button; /* 1 */
   font: inherit; /* 2 */
 }
