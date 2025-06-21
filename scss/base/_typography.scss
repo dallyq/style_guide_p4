@@ -1,38 +1,38 @@
 * {
-  font-family: 'Lato', sans-serif;
-  color: $text-color;
-  box-sizing: border-box;
+    font-family:'Lato', sans-serif;
+    color:#333;
+    box-sizing:border-box
 }
 
 p {
-  line-height: 1.45em;
+    line-height:1.45em
 }
 
 a {
-  text-decoration: none;
-}
+    text-decoration:none
+} 
 
 .headline-primary {
-  color: $primary-color;
-  margin-left: 10px;
+    color:#4A90E2;
+    margin-left:10px
 }
 
 .headline-secondary {
-  font-weight: 300;
-  color: $secondary-color;
+    font-weight:300;
+    color:#50E3C2
 }
 
 .link {
-  color: accent-color;
-  font-weight: 700;
+    color:accent-color;
+    font-weight:700
 }
 
 .blockquote {
-  font-size: 1.5em;
-  font-weight: 300;
-  font-style: italic;
-  margin-left: 20px;
-  padding-left: 20px;
-  border-left: 8px solid #58e1c1;
-  border-radius: 5px;
+    font-size:1.5em;
+    font-weight:300;
+    font-style:italic;
+    margin-left:20px;
+    padding-left:20px;
+    border-left:8px solid #58e1c1;
+    border-radius:5px
 }
