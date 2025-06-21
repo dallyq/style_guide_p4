@@ -1,4 +1,4 @@
-// Colors
+// Base Colors
 $primary-color:#4A90E2; // soft blue
 $secondary-color:#50E3C2; // mint green
 $accent-color:#F5A623; // warm amber
@@ -16,7 +16,7 @@ $btn-warning: #00FF43; // neon green
 // Form Colors
 $input-border: #A58E12; // mustard
 
-// Theme Column Colours
+// Theme Column Colors
 $col-1color: #FF0567; // red
 $col-2color: #00ffe4; // light turquoise
 $col-3color: #4E00F4; // dark blue
@@ -29,6 +29,9 @@ $col-9color: #eed342; // yellow orange
 $col-10color: #cc980e; // deep mustard
 $col-11color: #873449; // very dark muddy pink
 $col-12color: #23dde8; // light blue
+
+// Image Frame Colors
+$imgframe-brdr: #54eed4; //
 
 // Media Queries
 $breakpoint-sm: 480px; // Small devices
