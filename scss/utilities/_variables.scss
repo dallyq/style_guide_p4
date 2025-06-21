@@ -1,9 +1,16 @@
 // Colors
-$primary-color:     #4A90E2; // soft blue
-$secondary-color:   #50E3C2; // mint green
-$accent-color:      #F5A623; // warm amber
-$background-color:  #F9F9F9; // light grey background
-$text-color:        #333333; // dark grey for readability
+$primary-color:#4A90E2; // soft blue
+$secondary-color:#50E3C2; // mint green
+$accent-color:#F5A623; // warm amber
+$background-color:#F9F9F9; // light grey background
+$text-color:#333333; // dark grey for readability
+
+// Button Colors
+$btn-default: #63cc82; // light green
+$btn-error: #FF67F1; // pastel pink
+$btn-info: #0F56FF; // dark blue
+$btn-success: #FFF554; // light yellow
+$btn-warning: #00FF43; // neon green
 
 // Media Queries
 $breakpoint-sm: 480px; // Small devices
