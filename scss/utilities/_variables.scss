@@ -37,4 +37,7 @@ $imgframe-brdr: #54eed4; //
 $navlink-bg: #58e1c1; // light turquoise
 
 // Media Queries
-$breakpoint-sm: 480px; // Small devices
+$breakpoint-sm: 480px;   // Small devices (e.g. phones)
+$breakpoint-md: 768px;   // Medium devices (e.g. tablets)
+$breakpoint-lg: 1024px;  // Large devices (e.g. small laptops)
+$breakpoint-xl: 1200px;  // Extra-large devices (e.g. desktops, widescreens)
