@@ -1,6 +1,6 @@
 * {
     font-family:'Lato', sans-serif;
-    color:$text-color;
+    color:$text-color; // dark grey for readability
     box-sizing:border-box
 }
 
@@ -13,17 +13,17 @@ a {
 } 
 
 .headline-primary {
-    color:#4A90E2;
+    color:$primary-color; // soft blue
     margin-left:10px
 }
 
 .headline-secondary {
     font-weight:300;
-    color:#50E3C2
+    color:$secondary-color // mint green
 }
 
 .link {
-    color:accent-color;
+    color:accent-color; // warm amber
     font-weight:700
 }
 
