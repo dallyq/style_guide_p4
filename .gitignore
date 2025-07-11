@@ -5,5 +5,5 @@ ignore_me.html
 node_modules/
 output.scss
 output.scss.map
-css/styles.css
+resources/css/style.css
 resources/css/styles.css.map
