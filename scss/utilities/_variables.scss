@@ -37,7 +37,7 @@ $column-colors: (
 );
 
 // Image Frame Colors
-$imgframe-brdr: #54eed4; //
+$imgframe-brdr:rgb(204, 204, 204); // very light grey
 
 // Media Queries
 $breakpoint-sm: 480px;   // Small devices (e.g. phones)
