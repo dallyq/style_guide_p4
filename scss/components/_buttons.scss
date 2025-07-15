@@ -1,10 +1,10 @@
 .btn {
   margin-top: 15px;
   width: 100%;
-  color: $white;
+  color: $white; // used white to make font stand out against button color
   border: none;
   padding: $w 0;
-  text-transform: uppercase;
+  text-transform: uppercase; // makes all text uppercase
   border-radius: 5px;
 }
 
