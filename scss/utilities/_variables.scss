@@ -2,6 +2,7 @@
 $the-mighty-stack: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
 // Base Colors
+$white: #fff; // white
 $text-color:#777; // dark grey for readability
 $primary-color:#4A90E2; // soft blue
 $secondary-color:#50E3C2; // mint green
@@ -10,11 +11,10 @@ $background-color:#F9F9F9; // light grey background
 $navlink-bg: #58e1c1; // light turquoise
 
 // Button Colors
-$white: #fff; // white
-$btn-error: #E4757A; // pastel pink/red
-$btn-info: #927BC1; // pastel purple
 $btn-success: #63cc82; // light green
+$btn-error: #E4757A; // pastel pink and red
 $btn-warning: #FD7856; // pastel orange
+$btn-info: #927BC1; // pastel purple
 
 // Form Colors
 $input-border: #A58E12; // mustard
