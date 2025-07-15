@@ -13,7 +13,7 @@ a {
 } 
 
 .headline-primary {
-    color: $navlink-bg; // light turquoise
+    color: $light-tq; 
     margin-left:$w
 }
 
@@ -33,6 +33,6 @@ a {
     font-style:italic; // adds styling to this paragraph
     margin-left:20px;
     padding-left:20px;
-    border-left:8px solid #58e1c1; // border used to make paragraph stand out
+    border-left:8px solid $light-tq; // border used to make paragraph stand out
     border-radius:5px
 }
