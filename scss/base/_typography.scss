@@ -1,5 +1,5 @@
 * {
-    font-family:'Lato', sans-serif;
+    font-family:$the-mighty-stack;
     color:$text-color; // dark grey for readability
     box-sizing:border-box
 }
@@ -9,6 +9,7 @@ p {
 }
 
 a {
+    color: $btn-default;
     text-decoration:none
 } 
 
