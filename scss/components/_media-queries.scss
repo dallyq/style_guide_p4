@@ -25,7 +25,7 @@
 }
 
 [class^=col] + [class^=col] {
-  margin-left: 10px;
+  margin-left: $w;
 }
 
 .col-1 {
@@ -87,11 +87,11 @@
 }
 
 .btn {
-  padding: 10px 30px;
+  padding: $w 30px;
 }
 
 .btn + .btn {
-  margin-left: 10px;
+  margin-left: $w;
 }
 
 .logo {
