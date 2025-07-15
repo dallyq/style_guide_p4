@@ -14,13 +14,13 @@ a {
 } 
 
 .headline-primary {
-    color:$primary-color; // soft blue
+    color:$text-color; // dark grey for readability
     margin-left:10px
 }
 
 .headline-secondary {
     font-weight:300;
-    color:$secondary-color // mint green
+    color:$text-color; // dark grey for readability
 }
 
 .link {
