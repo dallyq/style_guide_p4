@@ -8,22 +8,22 @@
   border-radius: 5px;
 }
 
-button.btn.default {
+.default {
   background-color: $link-color; // bright light blue
 }
 
-.error {
-  color: $btn-error;
-}
-
-.info {
-  color: $btn-info;
-}
-
 .success {
-  color: $btn-success;
+  background-color: $btn-success; // light green
+}
+
+.error {
+  background-color: $btn-error; // pastel pink/red
 }
 
 .warning {
-  color: $btn-warning;
+  background-color: $btn-warning; // pastel orange
+}
+
+.info {
+  background-color: $btn-info; // pastel purple
 }
