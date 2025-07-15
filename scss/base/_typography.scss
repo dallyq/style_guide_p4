@@ -1,5 +1,5 @@
 * {
-    font-family:$the-mighty-stack;
+    font-family:$the-mighty-stack; // font stack prioritizes Lato. 
     color:$text-color; // dark grey for readability
     box-sizing:border-box
 }
@@ -9,7 +9,7 @@ p {
 }
 
 a {
-    text-decoration:none
+    text-decoration:none // removes underline from links
 } 
 
 .headline-primary {
@@ -30,9 +30,9 @@ a {
 .blockquote {
     font-size:1.5em;
     font-weight:300;
-    font-style:italic;
+    font-style:italic; // adds styling to this paragraph
     margin-left:20px;
     padding-left:20px;
-    border-left:8px solid #58e1c1;
+    border-left:8px solid #58e1c1; // border used to make paragraph stand out
     border-radius:5px
 }
