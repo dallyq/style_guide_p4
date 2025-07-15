@@ -10,6 +10,9 @@ $link-color:#51ddfc; // bright light blue
 $background-color:#F9F9F9; // light grey background
 $navlink-bg: #58e1c1; // light turquoise
 
+// Image Frame Colors
+$imgframe-brdr:#CCCCCC; // very light grey
+
 // Button Colors
 $btn-success: #63cc82; // light green
 $btn-error: #E4757A; // pastel pink and red
@@ -35,8 +38,8 @@ $column-colors: (
     '15': #EC9FA3, // orangey red pastel
 );
 
-// Image Frame Colors
-$imgframe-brdr:#CCCCCC; // very light grey
+// Extra Design
+$w: 10px; // repeated often in project
 
 // Media Queries
 $breakpoint-sm: 480px;   // Small devices (e.g. phones)
