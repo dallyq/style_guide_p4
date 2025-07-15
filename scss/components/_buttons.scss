@@ -8,8 +8,8 @@
   border-radius: 5px;
 }
 
-.default {
-  color: $btn-default;
+button.btn.default {
+  background-color: $link-color; // bright light blue
 }
 
 .error {
