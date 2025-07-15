@@ -42,7 +42,7 @@ $column-colors: (
 $w: 10px; // repeated often throughout project
 
 // Media Queries
-$breakpoint-sm: 480px;   // Small devices (e.g. phones)
-$breakpoint-md: 768px;   // Medium devices (e.g. tablets)
-$breakpoint-lg: 1024px;  // Large devices (e.g. small laptops)
-$breakpoint-xl: 1200px;  // Extra-large devices (e.g. desktops, widescreens)
+$sm: 480px;   // Small devices (e.g. phones)
+$md: 768px;   // Medium devices (e.g. tablets)
+$lg: 1024px;  // Large devices (e.g. small laptops)
+$xl: 1200px;  // Extra-large devices (e.g. desktops, widescreens)
