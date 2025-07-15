@@ -1,17 +1,17 @@
 .form {
-  flex-basis: 100%;
+  flex-basis: 100%; // takes up full width of flex container
 }
 
 .input{
   display: block;
   width: 94%;
   margin: $w auto 0;
-  border: none;
-  padding: 10px;
+  border: none; // no border for input gives a modern style
+  padding: $w;
   border-bottom: 5px solid $navlink-bg; // light turquoise
 }
 
-.hidden {
+.hidden { // visually hides element, keeps it accessible to screen readers
   position:absolute;
   left:-10000px;
   top:auto;
