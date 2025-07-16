@@ -1,7 +1,22 @@
 @media (min-width: $md) {
-
+  
 .row {
+  display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
+}
+
+c-header {
+  flex-basis: 25%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+c-nav {
+  flex-basis: 75%;
+  display: flex;
+  align-content: center;
+  justify-content: flex-end;
 }
 
 .container {
@@ -15,6 +30,27 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.nav {
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+}
+
+.nav-link {
+flex-basis: 100px;
+}
+
+[class^=col] {
+display: flex;
+justify-content: center;
+margin-top: 0;
+align-items: center;
+}
+
+[class^=col] + [class^=col] {
+margin-left: 10px;
 }
 
 [class^=col] {
@@ -88,16 +124,6 @@
 
 .col-15 {
   flex-basis: 58.33%;
-}
-
-.nav {
-  flex-direction: row;
-  justify-content: flex-end;
-  align-items: center;
-}
-
-.nav-link {
-  flex-basis: 100px;
 }
 
 .btn {
