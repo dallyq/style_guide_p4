@@ -1,8 +1,10 @@
 @media (min-width: $md) {
   
-.row {
+.c-row {
   display: flex;
-  flex-wrap: wrap;
+}
+
+.row {
   flex-direction: row;
 }
 
