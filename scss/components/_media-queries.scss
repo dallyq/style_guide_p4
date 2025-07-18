@@ -8,18 +8,12 @@
 
 .row {
   flex-direction: row;
+  display: flex;
 }
 
 .c-row {
   display: flex;
   flex-direction: row;
-}
-
-.c-header, .c-nav {
-  display: flex;
-  justify-content: center;
-  margin-top: 0;
-  align-items: center;
 }
 
 .c-header {
@@ -47,24 +41,16 @@ flex-basis: 100px;
 }
 
 [class^=col] {
-display: flex;
-justify-content: center;
-margin-top: 0;
-align-items: center;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+  align-items: center;
 }
 
 [class^=col] + [class^=col] {
 margin-left: 10px;
 }
-
-[class^=col] {
-  flex: 1;
-}
-// above was taken out
-// display: flex;
-// justify-content: center;
-// margin-top: 0;
-// align-items: center;
 
 [class^=col] + [class^=col] {
   margin-left: $w;
