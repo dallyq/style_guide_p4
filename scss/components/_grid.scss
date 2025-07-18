@@ -16,12 +16,6 @@
   border-radius: 5px;
 }
 
-.c-nav, .c-header {
-  min-height: 25px; // this code here was added from 
-  padding: 10px; // inspect, remove it if needed.
-  border-radius: 5px;
-}
-
 @each $column, $color in $column-colors {
     .theme.col-#{$column} {
         background-color: $color;
