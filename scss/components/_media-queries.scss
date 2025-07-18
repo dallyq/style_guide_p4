@@ -1,32 +1,33 @@
 @media (min-width: $md) {
-  
-.c-row {
-  display: flex;
-  flex-direction: row;
+.container {
+  max-width: 1400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .row {
   flex-direction: row;
 }
 
-c-header {
+.c-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.c-header, .c-nav {
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+  align-items: center;
+}
+
+.c-header {
   flex-basis: 25%;
-  display: flex;
-  justify-content: flex-start;
 }
 
-c-nav {
+.c-nav {
   flex-basis: 75%;
-  display: flex;
-  align-content: center;
-  justify-content: flex-end;
-}
-
-.container {
-  max-width: 1400px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .centered {
