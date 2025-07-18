@@ -40,7 +40,7 @@ align-items: center;
 flex-basis: 100px;
 }
 
-[class^=col] {
+[class^=col] :not(+.col-12) {
   flex: 1;
   display: flex;
   justify-content: center;
@@ -66,10 +66,6 @@ margin-left: 10px;
 
 .col-3 {
   flex-basis: 50%;
-}
-
-.col-4 {
-  flex-basis: 33.33%;
 }
 
 .col-5 {
