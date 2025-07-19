@@ -16,10 +16,10 @@
   border-radius: 5px;
 }
 
-@each $column, $color in $column-colors {
-    .theme.col-#{$column} {
-        background-color: $color;
-    }
+@each $key, $color in $column-colors {
+  .row-#{$key} .theme {
+    background-color: $color;
+  }
 }
 
 .card {
