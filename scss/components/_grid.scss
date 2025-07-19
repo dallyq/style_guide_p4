@@ -16,8 +16,8 @@
   border-radius: 5px;
 }
 
-@each $col, $color in $column-colors {
-  .col-#{$col}.theme {
+@each $key, $color in $column-colors {
+  .theme-#{$key} {
     background-color: $color;
   }
 }
