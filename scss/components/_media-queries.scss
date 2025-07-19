@@ -6,13 +6,12 @@
   margin-right: auto;
 }
 
-.row {
+.row, .c-row {
   flex-direction: row;
 }
 
 .c-row {
   display: flex;
-  flex-direction: row;
   padding: 1em $w;
 }
 
