@@ -2,10 +2,10 @@
   padding: 0 $w;
 }
 
-.row, .c-row, .c-nav {
+.row {
   display: flex;
   flex-direction: column;
-  padding: 1em $w;
+  padding: 1em 10px;
 }
 
 [class^=col] {
