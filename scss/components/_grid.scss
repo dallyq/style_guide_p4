@@ -2,7 +2,7 @@
   padding: 0 $w;
 }
 
-.row {
+.row, .c-row, .c-nav {
   display: flex;
   flex-direction: column;
   padding: 1em $w;
