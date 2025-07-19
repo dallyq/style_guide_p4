@@ -47,10 +47,6 @@ flex-basis: 100px;
 }
 
 [class^=col] + [class^=col] {
-margin-left: 10px;
-}
-
-[class^=col] + [class^=col] {
   margin-left: $w;
 }
 
