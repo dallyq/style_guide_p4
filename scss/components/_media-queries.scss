@@ -6,21 +6,8 @@
   margin-right: auto;
 }
 
-.row, .c-row {
+.row {
   flex-direction: row;
-}
-
-.c-row {
-  display: flex;
-  padding: 1em $w;
-}
-
-.c-header {
-  flex-basis: 25%;
-}
-
-.c-nav {
-  flex-basis: 75%;
 }
 
 .centered {
