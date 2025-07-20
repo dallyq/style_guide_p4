@@ -6,24 +6,24 @@
   padding: $w 0;
   text-transform: uppercase; // makes all text uppercase
   border-radius: 5px;
-}
 
-.btn-default {
-  background-color: $link-color; // bright light blue
-}
+  &-default {
+    background-color: $link-color; // bright light blue
+  }
 
-.btn-success {
-  background-color: $btn-success; // light green
-}
+  &-success {
+    background-color: $btn-success; // light green
+  }
 
-.btn-error {
-  background-color: $btn-error; // pastel pink/red
-}
+  &-error {
+    background-color: $btn-error; // pastel pink/red
+  }
 
-.btn-warning {
-  background-color: $btn-warning; // pastel orange
-}
+  &-warning {
+    background-color: $btn-warning; // pastel orange
+  }
 
-.btn-info {
-  background-color: $btn-info; // pastel purple
+  &-info {
+    background-color: $btn-info; // pastel purple
+  }
 }
