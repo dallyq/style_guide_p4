@@ -1,5 +1,5 @@
 .header {
-  padding: $w;
+  padding: $w; // used to create some space around image
 }
 
 .nav {
@@ -25,6 +25,6 @@
 }
 
 .nav-link:hover {
-  color: $white;
-  background-color: $light-tq;
+  color: $white; // makes font white when hovered over
+  background-color: $light-tq; // turns button into turquoise when hovered over
 }
