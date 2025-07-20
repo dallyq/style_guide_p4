@@ -1,38 +1,38 @@
 * {
-    font-family:$the-mighty-stack; // font stack prioritizes Lato. 
-    color:$text-color; // dark grey for readability
-    box-sizing:border-box
+    font-family: $the-mighty-stack; // font stack prioritizes Lato. 
+    color: $text-color; // dark grey for readability
+    box-sizing: border-box;
 }
 
 p {
-    line-height:1.45em
+    line-height: 1.45em;
 }
 
 a {
-    text-decoration:none // removes underline from links
+    text-decoration: none; // removes underline from links
 } 
 
 .headline-primary {
     color: $light-tq; 
-    margin-left:$w
+    margin-left: $w
 }
 
 .headline-secondary {
-    font-weight:300;
-    color:$text-color; // dark grey for readability
+    font-weight: 300;
+    color: $text-color; // dark grey for readability
 }
 
 .link {
     color: $link-color; // bright light blue used for link's visibility
-    font-weight:700
+    font-weight: 700;
 }
 
 .blockquote {
-    font-size:1.5em;
-    font-weight:300;
-    font-style:italic; // adds styling to this paragraph
-    margin-left:20px;
-    padding-left:20px;
-    border-left:8px solid $light-tq; // border used to make paragraph stand out
-    border-radius:5px
+    font-size: 1.5em;
+    font-weight: 300;
+    font-style: italic; // adds styling to this paragraph
+    margin-left: 20px;
+    padding-left: 20px;
+    border-left: 8px solid $light-tq; // border used to make paragraph stand out
+    border-radius: 5px;
 }
