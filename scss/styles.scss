@@ -2,6 +2,6 @@
 /*          Sub-Folder Imports          */
 /* =========================================== */
 
-@import 'utilities/index';
-@import 'base/index';
-@import 'components/index';
+@import 'utilities/index'; // helper classes and functions
+@import 'base/index'; // basic element and layout styles
+@import 'components/index'; // UI components like buttons and cards
