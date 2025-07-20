@@ -2,5 +2,5 @@
 /*          Utilities Imports          */
 /* =========================================== */
 
-@import 'variables';
-@import 'mixins';
+@import 'variables'; // reusable values for colors, fonts, etc.
+@import 'mixins'; // reusable functions used for repetitive code
