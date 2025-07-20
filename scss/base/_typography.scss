@@ -12,14 +12,16 @@ a {
     text-decoration: none; // removes underline from links
 } 
 
-.headline-primary {
-    color: $light-tq; 
-    margin-left: $w
-}
+.card {
+    &-headline-primary {
+        color: $light-tq; 
+        margin-left: $w
+    }
 
-.headline-secondary {
-    font-weight: 300;
-    color: $text-color; // dark grey for readability
+    &-headline-secondary {
+        font-weight: 300;
+        color: $text-color; // dark grey for readability
+    }
 }
 
 .link {
