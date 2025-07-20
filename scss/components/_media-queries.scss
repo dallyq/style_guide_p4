@@ -8,16 +8,16 @@
 
 .row {
   flex-direction: row;
+  align-items: center;
 }
 
 .c-nav {
-flex-direction: row;
-justify-content: flex-end;
-align-items: center;
+  flex-direction: row;
+  justify-content: flex-end;
 }
 
 .nav-link {
-flex-basis: 100px;
+  flex-basis: 100px;
 }
 
 [class^=col]  {
