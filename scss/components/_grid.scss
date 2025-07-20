@@ -16,11 +16,11 @@
   border-radius: 5px;
 }
 
-// @each $key, $color in $column-colors {
-//   .col-#{$key} {
-//    background-color: $color;
-//  }
-// }
+@each $key, $color in $column-colors {
+  .col-#{$key} {
+    background-color: $color;
+  }
+}
 
 .card {
   flex-basis: 100%;
