@@ -17,7 +17,7 @@
 }
 
 @each $key, $color in $column-colors {
-  .theme-#{$key} {
+  .col-#{$key} {
     background-color: $color;
   }
 }
