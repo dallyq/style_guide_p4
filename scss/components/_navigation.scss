@@ -4,6 +4,18 @@
 
 .nav {
   margin-top: $w;
+    .nav-link {
+    text-align: center;
+    border-radius: 5px;
+    padding: $w 0;
+    display: block;
+    width: 100%;
+    transition: background-color .2s ease-in-out, color .2s ease-in-out;
+      &:hover {
+        color: $white; // makes font white when hovered over
+        background-color: $light-tq; // turns button into turquoise when hovered over
+      }
+    }
 }
 
 .c-nav {
@@ -11,17 +23,4 @@
   flex-basis: 100%;
   display: flex;
   flex-direction: column;
-}
-
-.nav-link {
-  text-align: center;
-  border-radius: 5px;
-  padding: $w 0;
-  display: block;
-  width: 100%;
-  transition: background-color .2s ease-in-out, color .2s ease-in-out;
-    &:hover {
-      color: $white; // makes font white when hovered over
-      background-color: $light-tq; // turns button into turquoise when hovered over
-    }
 }
