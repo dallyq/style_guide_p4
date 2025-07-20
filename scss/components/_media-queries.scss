@@ -10,12 +10,6 @@
   flex-direction: row;
 }
 
-.centered {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .nav {
 flex-direction: row;
 justify-content: flex-end;
@@ -45,7 +39,7 @@ flex-basis: 100px;
   flex-basis: 75%;
 }
 
-.col-1 {
+.col-1, .col-8 {
   flex-basis: 100%;
 }
 
@@ -73,16 +67,12 @@ flex-basis: 100px;
   flex-basis: 66.67%;
 }
 
-.col-8 {
-  flex-basis: 25.00%;
-}
-
 .col-9 {
   flex-basis: 66.67%;
 }
 
 .col-10 {
-  flex-basis: 25%;
+  flex-basis: 33.33%
 }
 
 .col-11 {
@@ -91,30 +81,6 @@ flex-basis: 100px;
 
 .col-12 {
   flex-basis: 100%;
-}
-
-.col-13 {
-  flex-basis: 41.67%;
-}
-
-.col-14 {
-  flex-basis: 100%;
-}
-
-.col-15 {
-  flex-basis: 66.67%;
-}
-
-.col-16 {
-  flex-basis: 100%;
-}
-
-.col-17 {
-  flex-basis: 66.67%;
-}
-
-.col-18 {
-  flex-basis: 33.33%;
 }
 
 .btn {
@@ -128,6 +94,11 @@ flex-basis: 100px;
 .logo {
   margin-left: initial;
   margin-right: initial;
+}
+
+.centered {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 }
