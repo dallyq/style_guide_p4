@@ -10,7 +10,7 @@
   flex-direction: row;
 }
 
-.nav {
+.c-nav {
 flex-direction: row;
 justify-content: flex-end;
 align-items: center;
@@ -20,7 +20,7 @@ align-items: center;
 flex-basis: 100px;
 }
 
-[class^=col] {
+[class^=col]  {
   display: flex;
   justify-content: center;
   margin-top: 0;
