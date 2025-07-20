@@ -1,5 +1,5 @@
 body {
-  margin: 8px;
+  margin: 8px; // added space around body element
 }
 
 .container {
@@ -22,8 +22,8 @@ body {
 
 @each $key, $color in $column-colors {
   .col-#{$key} {
-    background-color: $color;
-  }
+    background-color: $color; // adds a color for each column element,
+  }                           // based on the color order in the map
 }
 
 .card {
