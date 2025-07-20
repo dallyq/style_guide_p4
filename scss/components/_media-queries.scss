@@ -45,7 +45,7 @@ flex-basis: 100px;
   flex-basis: 75%;
 }
 
-[class*="theme"] {
+.col-1 {
   flex-basis: 100%;
 }
 
@@ -62,7 +62,7 @@ flex-basis: 100px;
 }
 
 .col-5 {
-  flex-basis: 33.33%;
+  flex-basis: 41.67%
 }
 
 .col-6 {
