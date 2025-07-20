@@ -9,21 +9,36 @@
 
   &-default {
     background-color: $link-color; // bright light blue
+      &:hover {
+        background-color: lighten($link-color, 10%);
+      }
   }
 
   &-success {
     background-color: $btn-success; // light green
+      &:hover {
+        background-color: lighten($btn-success, 10%);
+      }
   }
 
   &-error {
     background-color: $btn-error; // pastel pink/red
+      &:hover {
+        background-color: lighten($btn-error, 10%);
+      }
   }
 
   &-warning {
     background-color: $btn-warning; // pastel orange
+      &:hover {
+        background-color: lighten($btn-warning, 10%);
+      }
   }
 
   &-info {
     background-color: $btn-info; // pastel purple
+      &:hover {
+        background-color: lighten($btn-info, 10%);
+      }
   }
 }
